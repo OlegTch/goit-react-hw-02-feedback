@@ -8,35 +8,35 @@ const Statistics = ({
   onTotal,
   onPositivePercentage,
 }) => (
-  <ul className={styles.StatisticsList}>
-    <li className={styles.StatisticsItem}>
-      <p className={styles.StatisticsText}>
+  <ul className={styles.statisticsList}>
+    <li className={styles.statisticsItem}>
+      <p className={styles.statisticsText}>
         Good:
-        <span className={styles.StatisticsValue}>{onGood}</span>
+        <span className={styles.statisticsValue}>{onGood}</span>
       </p>
     </li>
-    <li className={styles.StatisticsItem}>
-      <p className={styles.StatisticsText}>
+    <li className={styles.statisticsItem}>
+      <p className={styles.statisticsText}>
         Neutral:
-        <span className={styles.StatisticsValue}>{onNeutral}</span>
+        <span className={styles.statisticsValue}>{onNeutral}</span>
       </p>
     </li>
-    <li className={styles.StatisticsItem}>
-      <p className={styles.StatisticsText}>
+    <li className={styles.statisticsItem}>
+      <p className={styles.statisticsText}>
         Bad:
-        <span className={styles.StatisticsValue}>{onBad}</span>
+        <span className={styles.statisticsValue}>{onBad}</span>
       </p>
     </li>
-    <li className={styles.StatisticsItem}>
-      <p className={styles.StatisticsText}>
+    <li className={styles.statisticsItem}>
+      <p className={styles.statisticsText}>
         Total:
-        <span className={styles.StatisticsValue}>{onTotal}</span>
+        <span className={styles.statisticsValue}>{onTotal}</span>
       </p>
     </li>
-    <li className={styles.StatisticsItem}>
-      <p className={styles.StatisticsText}>
+    <li className={styles.statisticsItem}>
+      <p className={styles.statisticsText}>
         Positive feedback:
-        <span className={styles.StatisticsValue}>{onPositivePercentage}</span>%
+        <span className={styles.statisticsValue}>{onPositivePercentage}</span>%
       </p>
     </li>
   </ul>
